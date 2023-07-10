@@ -4,11 +4,13 @@ A new Flutter project.
 First Flutter Deploy Google PlayStore
 
 #Comando para gerar o arquivo my-key.jks. No meu caso eu utilizei o S.O. Windows
+
+´´´bash
 Windows
-keytool -genkey -v -keystore C:\Users\USER_NAME\my-key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+$keytool -genkey -v -keystore C:\Users\USER_NAME\my-key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
 
 Linux/Mac
-keytool -genkey -v -keystore ~/my-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+$keytool -genkey -v -keystore ~/my-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
 
 #Estudos baseados nesse arquivo no site Medium
 Obrigado Gabriel por compartilhar o seu exemplo que me ajudou bastante.
